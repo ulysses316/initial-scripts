@@ -1,0 +1,2 @@
+source $HOME/.cargo/env
+alias actualizar='sudo apt-get update -y  && sudo apt update -y && sudo apt-get upgrade -y  && sudo apt upgrade -y'
