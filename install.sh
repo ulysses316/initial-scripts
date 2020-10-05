@@ -23,7 +23,8 @@ sudo apt install httpie -y
 #  Internet
 	#Vivaldi.deb
 wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.3.2022.47-1_amd64.deb
-
+	# Telegram
+sudo apt install telegram-desktop	
 #  Juegos
 	#SuperTuxKart
 sudo add-apt-repository ppa:stk/dev
