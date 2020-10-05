@@ -8,6 +8,7 @@ sudo apt-get update -y  && sudo apt update -y && sudo apt-get upgrade -y  && sud
 sudo apt install curl -y
 	#konsole
 sudo apt install konsole -y
+	#Vim
 sudo apt install vim -y
 #  Desarrollo
 	#NodeJS
@@ -20,6 +21,9 @@ sudo apt install git -y
 	#httpie
 sudo apt install httpie -y
 #  Internet
+	#Vivaldi.deb
+wget https://downloads.vivaldi.com/stable/vivaldi-stable_3.3.2022.47-1_amd64.deb
+
 #  Juegos
 	#SuperTuxKart
 sudo add-apt-repository ppa:stk/dev
@@ -29,6 +33,7 @@ sudo apt install supertuxkart
 	#ncspot
 sudo apt install libncursesw5-dev libdbus-1-dev libpulse-dev libssl-dev libxcb1-dev libxcb-render0-dev libxcb-shape0-dev libxcb-xfixes0-dev -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+source $HOME/.cargo/env
 cargo install ncspot
 #  Productividad
 	#NextCloud
